@@ -1,0 +1,681 @@
+@media(max-width:1170px) {
+
+
+    /* header-section */
+    #navbar ul{
+        display: flex;
+        align-items: center;
+        
+    }
+    #navbar ul img{
+        height: 70px;
+        margin:10px 10px 5px 30px;
+        border-radius: 50%;
+        line-height: 70px;
+        width: 70px;
+    }
+    #navbar ul li a{
+        text-decoration: none;
+        text-align: center;
+        font-size: 25px;
+        color: white;
+        padding: 10px 20px;
+    
+    
+    }
+
+    #navbar ul li a:hover{
+
+    background-color: blue;
+    color: tomato;
+    
+    border-radius: 23px;
+    
+    }
+    /* home-section */
+    #home{
+        display: flex;
+        position: relative;
+        height: 600px;
+    }
+    #home::before{
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.847);
+        z-index: -1;
+        top: 0;
+    bottom: 0px;
+    left: 0px;
+    }
+    
+    .home-main{
+        margin: 40px ;
+    }
+    .home-main .hello{
+        font-size: 40px;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        
+    }
+    .home-main .hello::first-letter{
+        font-size: 150px;
+    
+    }
+    .home-main .name{
+        font-size: 40px;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .home-main .web{
+        font-size: 40px;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    .home-main .cv-button{
+        padding: 20px;
+        font-size: 30px ;
+        border-radius: 23px;
+        margin-top: 50px;
+    }
+    .home-main .social-media a{
+        font-size: 30px;
+        color: white;
+        padding: 20px;
+        text-decoration: none;
+    }
+    #home-pic img{
+        height: 300px;
+        width: 400px;
+        border-radius: 23px;
+        position: relative;
+        top: 100px;
+        right: 0px;
+    }
+
+
+
+    /* skill-section */
+    #skill-item{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .skill-box{
+        width: 200px;
+        height:350px;
+        border: 2px solid black;
+        box-shadow: 10px 10px black;
+    }
+    .skill-box img{
+        width: 200px;
+        height: 200px;
+    }
+    
+    
+    /* project-section */
+    #project-item{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    
+    }
+    #project-item .project-box{
+        border: 2px solid rgba(18, 7, 7, 0.592);
+        width: 250px;
+        height: 400px;
+        box-shadow: 10px 10px black;
+    }
+    #project-item .project-box img{
+    width: 250px;
+    height: 150px;
+    }
+    /* contact-section */
+    #contact-box input,
+    #contact-box textarea{
+        width: 100%;
+        padding: 10px;
+        border-radius: 23px;
+        font-size: 20px;
+    
+    }
+    #contact-box form {
+align-items: center;
+        width: 50%;
+    }
+    #contact-box label{
+        font-size: 30px;
+        color: white;
+    }
+    #contact-box form .social-media a{
+        font-size: 30px;
+        padding: 0 15px 0 10px;
+        color: white;
+        text-decoration: none;
+    }
+    #submit{
+        font-size: 20px;
+        padding: 20px;
+        width: 200px;
+        border-radius: 23px;
+    }
+    
+}
+
+
+
+
+
+
+@media(max-width:910px){
+    /* header-section */
+    #navbar{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    height: 130px;
+    }
+    #navbar ul{
+        display: flex;
+        align-items: center;
+    
+        
+    }
+    #navbar  img{
+        height: 60px;
+        margin:10px 10px 0px 30px;
+        border-radius: 50%;
+        line-height: 40px;
+        width: 60px;
+    }
+    #navbar ul li{
+        list-style: none;
+
+        }
+    #navbar ul li a{
+        text-decoration: none;
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        padding: 10px 10px;
+    
+    
+    }
+
+    #navbar ul li a:hover{
+
+    background-color: blue;
+    color: tomato;
+    
+    border-radius: 23px;
+    
+    }
+
+
+
+    /* home-section */
+
+
+
+    #home{
+        display: flex;
+        position: relative;
+        height: auto;
+    }
+    #home::before{
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.847);
+        z-index: -1;
+        top: 0;
+    bottom: 0px;
+    left: 0px;
+    }
+    
+    .home-main{
+        margin: 40px ;
+    }
+    .home-main .hello{
+        font-size: 40px;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        
+    }
+    .home-main .hello::first-letter{
+        font-size: 150px;
+    
+    }
+    .home-main .name{
+        font-size: 40px;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .home-main .web{
+        font-size: 40px;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    .home-main .cv-button{
+        padding: 10px;
+        font-size: 10px ;
+        border-radius: 23px;
+        margin-top: 0px;
+    }
+    .home-main .social-media a{
+        font-size: 30px;
+        color: white;
+        padding: 20px;
+        text-decoration: none;
+    }
+    #home-pic img{
+        height: 300px;
+        width: 200px;
+        border-radius: 23px;
+        position: relative;
+        top: 100px;
+        right: 5px;
+    }
+
+/* about-section */
+#about-section{
+    position: relative;
+    height:auto;
+
+}
+#about-section::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.799);
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+}
+.info-box .info{
+    text-align: center;
+    font-size: 20px;
+    padding-top:15px ;
+    color: white;
+}
+
+    /* skill-section */
+    #skill-section{
+        position: relative;
+        height: auto;
+    
+    }
+    #skill-section::before{
+        content: "";
+        background-color:rgba(0, 0, 0, 0.831);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        z-index:-1;
+    }
+    #skill-item{
+        display: flex;
+        align-items: center;
+    justify-content:space-evenly;
+        
+    }
+    .skill-box{
+        width: 150px;
+        height:280px;
+        border: 2px solid black;
+        box-shadow: 10px 10px black;
+
+    }
+    .skill-box img{
+        width: 150px;
+        height: 200px;
+    }
+    
+    
+    /* project-section */
+
+    #project-section{
+        position: relative;
+        height: auto;
+    
+    }
+    #project-section::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.802);
+    z-index: -1;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    }
+    #project-item{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    
+    
+    }
+    #project-item .project-box{
+        border: 2px solid rgba(18, 7, 7, 0.592);
+        width: 150px;
+        height: 350px;
+        box-shadow: 10px 10px black;
+    
+    }
+    #project-item .project-box img{
+    width: 150px;
+    height: 150px;
+    }
+    /* contact-section */
+    #contact-box input,
+    #contact-box textarea{
+        width: 100%;
+        padding: 10px;
+        border-radius: 23px;
+        font-size: 20px;
+    
+    }
+    #contact-box form {
+align-items: center;
+        width: 50%;
+    }
+    #contact-box label{
+        font-size: 30px;
+        color: white;
+    }
+    #contact-box form .social-media a{
+        font-size: 20px;
+        padding: 0 15px 0 10px;
+        color: white;
+        text-decoration: none;
+    }
+    #submit{
+        font-size: 10px;
+        padding: 10px;
+        width: 200px;
+        border-radius: 23px;
+    }
+    
+    .h-primary{
+        text-align: center;
+            font-size: 40px;
+            color: orangered;
+        }
+        .h-secondry{
+            text-align: center;
+            font-size: 20px;
+            color:orange;
+            font-family: 'Courier New', Courier, monospace;
+            padding-top:10px ;
+        }
+        .paragraph{
+            padding-top: 10px;
+            font-size: 15px;
+            font-family: 'Courier New', Courier, monospace;
+            color:white ;
+            text-align: center;
+        }
+        
+}
+
+
+
+
+
+
+@media(max-width:690px){
+        /* header-section */
+        #navbar{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        height: 130px;
+        }
+        #navbar ul{
+            display: flex;
+            align-items: center;
+        
+            
+        }
+        #navbar  img{
+            height: 60px;
+            margin:10px 10px 0px 30px;
+            border-radius: 50%;
+            line-height: 40px;
+            width: 60px;
+        }
+        #navbar ul li{
+            list-style: none;
+    
+            }
+        #navbar ul li a{
+            text-decoration: none;
+            text-align: center;
+            font-size: 15px;
+            color: white;
+            padding: 10px 10px;
+        
+        
+        }
+    
+        #navbar ul li a:hover{
+    
+        background-color: blue;
+        color: tomato;
+        
+        border-radius: 23px;
+        
+        }
+    
+    
+    
+        /* home-section */
+    
+    
+    
+        #home{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            position: relative;
+            height: auto;
+            text-align: center;
+        }
+        #home::before{
+            content: "";
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.847);
+            z-index: -1;
+            top: 0;
+        bottom: 0px;
+        left: 0px;
+        }
+        
+        .home-main{
+            margin: 0px ;
+        }
+        .home-main .hello{
+            font-size: 40px;
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+            
+        }
+        .home-main .hello::first-letter{
+            font-size: 150px;
+        
+        }
+        .home-main .name{
+            font-size: 40px;
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .home-main .web{
+            font-size: 40px;
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        
+        .home-main .cv-button{
+            padding: 10px;
+            font-size: 15px ;
+            border-radius: 23px;
+            margin-top: 0px;
+        }
+        .home-main .social-media a{
+            font-size: 30px;
+            color: white;
+            padding: 20px;
+            text-decoration: none;
+        }
+        #home-pic img{
+            margin-top: 10px;
+            height: 200px;
+            border-radius: 23px;
+            position: relative;
+            top: 0px;
+        border-radius: 23px;
+                box-shadow: 20px 0px 10px 10px rgba(212, 11, 11, 0.492) ;
+            
+        }
+    
+    
+    
+        /* skill-section */
+        #skill-section{
+            position: relative;
+            height: auto;
+        
+        }
+        #skill-section::before{
+            content: "";
+            background-color:rgba(0, 0, 0, 0.831);
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            z-index:-1;
+        }
+        #skill-item{
+            display: flex;
+            flex-direction: column;
+
+            align-items: center;
+            /* justify-content: space-evenly; */
+        }
+        .skill-box{
+            width: 350px;
+            height:300px;
+            border: 2px solid black;
+            box-shadow: 10px 10px black;
+            margin: 20px;
+        }
+        .skill-box img{
+            width: 350px;
+            height: 200px;
+        }
+        
+        
+        /* project-section */
+    
+        #project-section{
+            position: relative;
+            height: auto;
+        
+        }
+        #project-section::before{
+        content: "";
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.802);
+        z-index: -1;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        }
+        #project-item{
+            display: flex;
+            /* justify-content: space-evenly; */
+            align-items: center;
+        flex-direction: column;
+        }
+        #project-item .project-box{
+            border: 2px solid rgba(18, 7, 7, 0.592);
+            width: 350px;
+            height: 350px;
+            box-shadow: 10px 10px black;
+            margin: 20px;
+        }
+        #project-item .project-box img{
+        width: 350px;
+        height: 150px;
+        }
+        /* contact-section */
+
+
+
+        #contact-box input,
+        #contact-box textarea{
+            width: 100%;
+            padding: 10px;
+            border-radius: 23px;
+            font-size: 20px;
+        
+        }
+        #contact-box form {
+    align-items: center;
+            width: 50%;
+        }
+        #contact-box label{
+            font-size: 30px;
+            color: white;
+        }
+        #contact-box form.social-media a{
+            font-size: 0px;
+            padding: 0 10px 0 5px;
+            color: white;
+            text-decoration: none;
+        }
+        #submit{
+            font-size: 15px;
+            padding: 10px;
+            width: 100px;
+            border-radius: 23px;
+        }
+        
+        .h-primary{
+            text-align: center;
+                font-size: 40px;
+                color: orangered;
+            }
+            .h-secondry{
+                text-align: center;
+                font-size: 20px;
+                color:orange;
+                font-family: 'Courier New', Courier, monospace;
+                padding-top:10px ;
+            }
+            .paragraph{
+                padding-top: 10px;
+                font-size: 15px;
+                font-family: 'Courier New', Courier, monospace;
+                color:white ;
+                text-align: center;
+            }
+
+}

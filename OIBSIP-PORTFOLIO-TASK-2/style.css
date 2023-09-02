@@ -1,0 +1,399 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    transition: .4 linear;
+
+}
+#navbar{
+    position: sticky;
+    /* height: 100px; */
+    display: flex;
+    top: 0px;
+    z-index: 1;
+}
+#navbar::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.759);
+    z-index: -1;
+}
+#navbar ul{
+    display: flex;
+    
+}
+#navbar img{
+    height: 90px;
+    margin:5px 20px 5px 50px;
+    border-radius: 50%;
+    line-height: 90px;
+    width: 90px;
+}
+#navbar ul li{
+    list-style: none;
+    margin-top: 20px;
+    }
+#navbar ul li a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding: 10px 34px;
+
+
+}
+
+#navbar ul li a:hover{
+padding: 10px;
+background-color: blue;
+color: tomato;
+
+border-radius: 23px;
+
+}
+
+/* home-section */
+
+
+#home{
+    display: flex;
+    position: relative;
+    height: 700px;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.847);
+    z-index: -1;
+    top: 0;
+bottom: 0px;
+left: 0px;
+}
+.home-main{
+    margin: 100px ;
+}
+.home-main .hello{
+    font-size: 60px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.home-main .hello::first-letter{
+    font-size: 150px;
+
+}
+.home-main .name{
+    font-size: 60px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.home-main .web{
+    font-size: 60px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.home-main .cv-button{
+    padding: 20px;
+    font-size: 30px ;
+    border-radius: 23px;
+    margin-top: 50px;
+    color: white;
+    background-color: rgba(0, 0, 255, 0.367);
+}
+.home-main .cv-button:hover{
+color:white;
+background-color:tomato;
+}
+.home-main .social-media a{
+    font-size: 30px;
+    color: orangered;
+    padding: 20px;
+    text-decoration: none;
+}
+#home-pic img{
+    height: 400px;
+    width: 400px;
+    border-radius: 23px;
+    position: relative;
+    top: 100px;
+    right: 100px;
+    box-shadow: 40px -20px 10px 10px rgba(212, 11, 11, 0.492) ;
+}
+#about-section{
+    position: relative;
+    height: 700px;
+
+}
+#about-section::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.799);
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+}
+.info-box .info{
+    text-align: center;
+    font-size: 40px;
+    padding-top:20px ;
+    color: white;
+}
+/* skill-section */
+
+
+#skill-section{
+    position: relative;
+    height: 600px;
+
+}
+#skill-section::before{
+    content: "";
+    background-color:rgba(0, 0, 0, 0.831);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index:-1;
+}
+#skill-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.skill-box{
+    width: 284px;
+    height: 400px;
+    border: 2px solid black;
+    box-shadow: 30px -10px black;
+    border-radius: 23px;
+}
+.skill-box img{
+    width: 284px;
+    height: 250px;
+    border-radius: 23px;
+}
+
+.percent-html{
+    position: relative;
+    border: 2px solid red;
+
+    height: 3px;
+}
+.percent-html::after{
+    content: "";
+    position: absolute;
+    width: 80%;
+    background-color:red;
+    height: 5px;
+    left: 0px;
+}
+.percent-css{
+    position: relative;
+    border: 2px solid tomato;
+
+    height: 5px;
+}
+.percent-css::after{
+    content: "";
+    position: absolute;
+    width: 70%;
+    background-color:red;
+    height: 5px;
+    left: 0px;
+}
+.percent-js{
+    position: relative;
+    border: 2px solid tomato;
+
+    height: 5px;
+}
+.percent-js::after{
+    content: "";
+    position: absolute;
+    width: 20%;
+    background-color:red;
+    height: 5px;
+    left: 0px;
+}
+.percent-java{
+    position: relative;
+    border: 2px solid tomato;
+
+    height: 3px;
+}
+.percent-java::after{
+    content: "";
+    position: absolute;
+    width: 50%;
+    background-color:red;
+    height: 5px;
+    left: 0px;
+} 
+
+
+/* project-section */
+
+#project-section{
+    position: relative;
+    height: 700px;
+
+}
+#project-section::before{
+content: "";
+height: 100%;
+width: 100%;
+position: absolute;
+background-color: rgba(0, 0, 0, 0.802);
+z-index: -1;
+top: 0px;
+bottom: 0px;
+left: 0px;
+}
+#project-item{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+#project-item .project-box{
+    border: 2px solid rgba(18, 7, 7, 0.592);
+    width: 384px;
+    height: 400px;
+    box-shadow: 30px -10px black;
+    border-radius: 23px;
+}
+#project-item .project-box img{
+width: 384px;
+height: 190px;
+border-radius: 23px;
+}
+
+
+
+/* contact section */
+
+
+#contact-section{
+    position: relative;
+    height: 700px;
+
+}
+
+#contact-section::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.871);
+    z-index: -1;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    }
+    #contact-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    #contact-box input,
+    #contact-box textarea{
+        width: 100%;
+        padding: 10px;
+        border-radius: 23px;
+        font-size: 20px;
+    
+    }
+    #contact-box form {
+align-items: center;
+        width: 50%;
+    }
+    #contact-box label{
+        font-size: 30px;
+        color: white;
+    }
+    #contact-box form .social-media a{
+        font-size: 30px;
+        padding: 0 30px 0 10px;
+        text-decoration: none;
+        color:orangered;
+    }
+    #submit{
+        font-size: 20px;
+        padding: 20px;
+        width: 200px;
+        border-radius: 23px;
+        color: white;
+        background-color: rgba(0, 0, 255, 0.481);
+    }
+    #submit:hover{
+        background-color:tomato;
+        color:white;
+    }
+    footer{
+        position: relative;
+    
+    }
+    
+    footer .h-secondry{
+        background-color: black;
+        color: white;
+        padding: 10px;
+        
+    }    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.h-primary{
+text-align: center;
+    font-size: 60px;
+    color: orangered;
+}
+.h-secondry{
+    text-align: center;
+    font-size: 30px;
+    color:orange;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top:20px ;
+}
+.paragraph{
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color:white ;
+    text-align: center;
+}
+
